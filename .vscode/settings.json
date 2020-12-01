@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "hgws27.win.hostgator.com",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "HostGator",
+            "database": "eoking5_MSSQL",
+            "connectString": "Data Source = hgws27.win.hostgator.com; Initial Catalog = eoking5_MSSQL; Persist Security Info = True; User ID = eoking5_5; Password = VDaqm123",
+            "connectionTimeout": 5
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "askForPassword": true,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "HostData",
+            "connectString": "Data Source = hgws27.win.hostgator.com; Initial Catalog = eoking5_MSSQL; Persist Security Info = True; User ID = eoking5_5; Password = VDaqm123"
+        }
+    ]
+}
